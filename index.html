@@ -1,0 +1,102 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cadastro Refugiada</title>
+  <link href="style.css" rel="stylesheet"/>
+</head>
+
+<body>
+  <div class="box">
+    <div class="img-box">
+      <img src="refugiadas.jpg" alt="refugiadas">
+    </div>
+    <div class ="form-box">
+    <h2>Bem-Vinda, Refugiada!</h2>
+    <P>Possui cadastro? <a href="#">Login </a </P>
+    <form action="#">
+        
+        <div class="espacamento"> 
+
+      <div class="input-group w100">
+        <label for="nome"> Nome Completo:</label>
+        <input type="text" id="nome" placeholder="Digite o seu nome completo!" required>
+      </div>
+    
+      <div class="input-group w100">
+        <label for="email"> E-mail:</label>
+        <input type="email" id="email" placeholder="Ex.: daryna@gmail.com" required>
+      </div>
+    
+      <div class="input-group w50">
+        <label for="telefone">Telefone:</label>
+        <input type="telefone" id="telefone" placeholder="+XX (XX) XXXXX-XXXX" required>
+      </div>
+  
+      <div class="input-group w50">
+        <label for="cpf">ID Number:</label>
+        <input type="cpf" id="cpf" placeholder="XXXXXXXXXX" required>
+      </div>
+      
+      <div class="input-group w33">
+        <label for="cep">Digite o CEP:</label>
+        <input type="text" name="cep" id="cep" placeholder="XXXXX-XXX" maxlength= "9" required>
+      </div>
+      
+      <div class="input-group w33">
+        <label for="rua">Rua:</label>
+        <input type="text" name="rua" id="rua" placeholder="Rua" required>
+      </div>
+
+      <div class="input-group w33">
+        <label for="bairro">Número:</label>
+        <input type="text" name="numero" id="numero" placeholder="Nº" required>
+      </div>
+
+       <div class="input-group w33">
+        <label for="bairro">Bairro:</label>
+        <input type="text" name="bairro" id="bairro" placeholder="Bairro" required>
+      </div>
+
+        <div class="input-group w33">
+        <label for="cidade">Cidade:</label>
+        <input type="text" name="cidade" id="cidade" placeholder="Cidade" required>
+      </div>
+      
+      <div class="input-group w33">
+        <label for="estado">Estado:</label>
+        <input type="text" name="estado" id="estado" placeholder="Estado" required>
+      </div>
+
+          <div class="input-group w100">
+        <label for="nome">Conte sua história:</label>
+        <input type="text" id="nome" placeholder="Conte sua história!" required>
+      </div>
+
+    <div class="input-group w50">
+        <label for="senha">Senha:</label>
+        <input type="password" placeholder="Digite sua senha:" id="senha" required>
+      </div>    
+    <div class="input-group w50">
+        <label for="confirmarsenha">Confirmar Senha:</label>
+        <input type="confirm_password" placeholder="Confirme sua senha:" id="confirmarsenha" required>
+      </div>
+         
+    <div class="input-group">
+      <button>Cadastrar</button>
+    </div>
+</div>
+    </form>
+  </div>
+  
+
+
+
+      
+  <script src="script.js"></script>
+  
+</body>
+
+</html>
